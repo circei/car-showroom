@@ -1,0 +1,64 @@
+/* Reset */
+body, h1, h2, p, ul, li, table, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link {
+    color: white;
+    margin-right: 1rem;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
