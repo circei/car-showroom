@@ -62,3 +62,22 @@ footer {
     background: #333;
     color: #fff;
 }
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
